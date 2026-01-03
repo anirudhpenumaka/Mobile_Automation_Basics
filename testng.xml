@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" thread-count="20">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.appium.tests.DragAndDropTest"/>
+      <class name="com.appium.tests.TextBoxTest"/>
+      <class name="com.appium.tests.MessagesTest"/>
+      <class name="com.appium.tests.Calculator"/>
+      <class name="com.appium.tests.RadioButtonTest"/>
+      <class name="com.appium.tests.SeekBarTest"/>
+      <class name="com.appium.tests.WifiSwitchTest"/>
+      <class name="com.appium.tests.ApiDemosTest"/>
+      <class name="com.appium.tests.CheckBoxTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
